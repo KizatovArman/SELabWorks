@@ -4,7 +4,7 @@ import java.util.*;
 public class Database {
     public Database(){ }
 
-    public ArrayList<Item> getItemsForStore(String path,char typeOfStore){
+    public ArrayList<Item> getItemsForStore(String path){
         ArrayList<Item> items = new ArrayList<Item>();
         try{
             FileReader fileReader= new FileReader(path);

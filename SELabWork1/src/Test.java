@@ -1,3 +1,4 @@
+
 import java.util.*;
 import java.util.Vector;
 
@@ -8,7 +9,7 @@ public class Test {
     public static void main(String args[]) {
         Mall ourMall = new Mall("Imperator");
         Database database= new Database();
-        ArrayList<Item> ItemsFromDB = database.getItemsForStore("/Users/arman/Desktop/SELabWork1/src/items.txt");
+        ArrayList<Item> ItemsFromDB = database.getItemsForStore("/Users/arman/Desktop/SELabWorks/SELabWork1/src/items.txt");
         ArrayList<Store> stores = new ArrayList<Store>();
         Item book1 = new Item("Alibaba",3,100,5.66);
         ArrayList<Item> marwinItems = new ArrayList<Item>();
@@ -20,6 +21,7 @@ public class Test {
         ourMall.setStores(stores);
         for(Item i:ItemsFromDB){
             marwinItems.add(i);
+
         }
         marwin.setItems(marwinItems);
         //ourMall.listOfAllStores();

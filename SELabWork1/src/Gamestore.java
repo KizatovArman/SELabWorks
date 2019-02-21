@@ -12,6 +12,7 @@ public class Gamestore extends Store {
             return this.getName()+" has not added anything. Comeback later.";
         }
         int cnt=1;
+
         String just= "Gamestore - "+this.getName()+" has the following items:\n";
         String list= "";
         Iterator it = this.getItems().iterator();

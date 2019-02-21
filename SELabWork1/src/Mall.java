@@ -85,12 +85,6 @@ public class Mall {
             System.out.println(store.toString());
         }
     }
-    public void listOfAllItems(){
-        System.out.println("In our mall - "+this.name+" we sell:");
-                for(Store store:stores){
-                    store.listOfItems();
-                }
-    }
     public void listOfAllCustomers(){
         System.out.println("Today we have such customers:");
         for(Customer c: customers){
