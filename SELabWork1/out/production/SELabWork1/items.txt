@@ -1,0 +1,6 @@
+Ice 1 100 12.34
+SpiderMan5 1 101 189
+Tuffli 1 110 50.9
+GameBoy 2 101 500
+Jordan 2 110 35.69
+KEYTOLIFE 2 100 9000
